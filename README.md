@@ -23,7 +23,8 @@ Type the snippet shortcut inside of a Blade file and press the ```tab``` key.
 		<td>Form</td>
 		<td>fo</td>
 		<td>
-			```{{ Former::open()->route('route')->id('form') }}
+			```
+			{{ Former::open()->route('route')->id('form') }}
 
 	
 
@@ -35,7 +36,8 @@ Type the snippet shortcut inside of a Blade file and press the ```tab``` key.
 		<td>Form Populate</td>
 		<td>fpop</td>
 		<td>
-			```<?php Former::populate(Input::old()); ?>
+			```
+			<?php Former::populate(Input::old()); ?>
 			```
 		</td>
 	</tr>
@@ -43,7 +45,8 @@ Type the snippet shortcut inside of a Blade file and press the ```tab``` key.
 		<td>Text</td>
 		<td>ft</td>
 		<td>
-			```{{ Former::sm_text('field') }}
+			```
+			{{ Former::sm_text('field') }}
 			```
 		</td>
 	</tr>
@@ -51,7 +54,8 @@ Type the snippet shortcut inside of a Blade file and press the ```tab``` key.
 		<td>Text Area</td>
 		<td>fta</td>
 		<td>
-			```{{ Former::textArea('field') }}
+			```
+			{{ Former::textArea('field') }}
 			```
 		</td>
 	</tr>
@@ -59,7 +63,8 @@ Type the snippet shortcut inside of a Blade file and press the ```tab``` key.
 		<td>Password</td>
 		<td>fp</td>
 		<td>
-			```{{ Former::sm_password('password') }}
+			```
+			{{ Former::sm_password('password') }}
 			```
 		</td>
 	</tr>
@@ -67,7 +72,8 @@ Type the snippet shortcut inside of a Blade file and press the ```tab``` key.
 		<td>Select</td>
 		<td>fs</td>
 		<td>
-			```{{ Former::sm_select('field')->options($options) }}
+			```
+			{{ Former::sm_select('field')->options($options) }}
 			```
 		</td>
 	</tr>
@@ -75,7 +81,8 @@ Type the snippet shortcut inside of a Blade file and press the ```tab``` key.
 		<td>Inline Radios</td>
 		<td>fr</td>
 		<td>
-			```{{ Former::inline_radios('field')
+			```
+			{{ Former::inline_radios('field')
 				->radios([
 					'Label One' => ['name' => 'field', 'value' => 'value one'],
 					'Label Two' => ['name' => 'field', 'value' => 'value two']
@@ -87,7 +94,8 @@ Type the snippet shortcut inside of a Blade file and press the ```tab``` key.
 		<td>Hidden</td>
 		<td>fh</td>
 		<td>
-			```{{ Former::hidden('field')->value($value) }}
+			```
+			{{ Former::hidden('field')->value($value) }}
 			```
 		</td>
 	</tr>
@@ -95,7 +103,8 @@ Type the snippet shortcut inside of a Blade file and press the ```tab``` key.
 		<td>Label</td>
 		<td>fl</td>
 		<td>
-			```->label('label')
+			```
+			->label('label')
 			```
 		</td>
 	</tr>
@@ -103,7 +112,8 @@ Type the snippet shortcut inside of a Blade file and press the ```tab``` key.
 		<td>Class</td>
 		<td>fc</td>
 		<td>
-			```->addClass('class')
+			```
+			->addClass('class')
 			```
 		</td>
 	</tr>
@@ -111,7 +121,8 @@ Type the snippet shortcut inside of a Blade file and press the ```tab``` key.
 		<td>Group Class</td>
 		<td>fgc</td>
 		<td>
-			```->addGroupClass('class')
+			```
+			->addGroupClass('class')
 			```
 		</td>
 	</tr>
@@ -119,7 +130,8 @@ Type the snippet shortcut inside of a Blade file and press the ```tab``` key.
 		<td>Help Text</td>
 		<td>fhelp</td>
 		<td>
-			```->help('help text')
+			```
+			->help('help text')
 			```
 		</td>
 	</tr>
@@ -127,7 +139,8 @@ Type the snippet shortcut inside of a Blade file and press the ```tab``` key.
 		<td>Actions</td>
 		<td>fa</td>
 		<td>
-			```{{ Former::actions()->small_primary_submit('button') }}
+			```
+			{{ Former::actions()->small_primary_submit('button') }}
 			```
 		</td>
 	</tr>
