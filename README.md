@@ -24,14 +24,11 @@ Type the snippet shortcut inside of a Blade file and press the tab key.
 		<td>fo</td>
 		<td>{{ Former::open()->route('route')->id('form') }}
 
-	
+				Former::populate(Input::old());
+
+				
 
 			{{ Former::close() }}</td>
-	</tr>
-	<tr>
-		<td>Form Populate</td>
-		<td>fpop</td>
-		<td>Former::populate(Input::old());</td>
 	</tr>
 	<tr>
 		<td>Text</td>

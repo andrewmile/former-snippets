@@ -2,6 +2,8 @@
 	<content><![CDATA[
 {{ Former::open()${1:->route('${2:route}')}${3:->id('${4:form}')} }}
 
+	${5:<?php Former::populate(${6:Input::old()}); ?>}
+
 	$0
 
 {{ Former::close() }}

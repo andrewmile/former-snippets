@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<?php Former::populate(${1:Input::old()}); ?>
-]]></content>
-	<tabTrigger>fpop</tabTrigger>
-	<scope>text.html</scope>
-</snippet>
